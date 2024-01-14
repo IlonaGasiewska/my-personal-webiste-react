@@ -1,0 +1,28 @@
+.start-right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.start img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+hr {
+    height: 100px;
+}
+
+@media  (min-width: 1000px) {
+    .start-right-side {
+        width: 50%;
+    }
+    hr {
+        height: 100px;
+        display: none;
+        gap: 0px;
+    }
+}

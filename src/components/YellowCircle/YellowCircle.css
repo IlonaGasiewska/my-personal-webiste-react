@@ -1,0 +1,24 @@
+.yellow-circle {
+    background-color: var(--yellow);
+    color: var(--black);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media  (min-width: 1000px) {
+    .yellow-circle {
+        margin-top: -200px;
+        margin-left: 300px;
+    }
+}

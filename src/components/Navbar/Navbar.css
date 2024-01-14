@@ -1,0 +1,28 @@
+.navbar {
+    /* position: absolute;
+    z-index: 2;
+    left:0;
+    right:0; */
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.menu-icon {
+    font-size: 32px;
+    cursor: pointer;
+    color: #FFF;
+}
+
+@media  (min-width: 1000px) {
+    .navbar {
+        padding: 10px 20px;
+        justify-content: end;
+    }
+
+    .menu-icon{
+        display: none;
+    }
+}

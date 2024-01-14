@@ -1,0 +1,13 @@
+.start {
+    margin: 0px 50px;
+    min-height: 100vh;
+}
+
+@media  (min-width: 1000px) {
+    .start {
+        display: flex;
+        width: 60%;
+        margin: auto;
+        min-height: 900px;
+    }
+}

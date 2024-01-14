@@ -1,0 +1,16 @@
+.button-to-projects {
+    padding: 20px 50px;
+    background-color: transparent;
+    color: var(--white);
+    cursor: pointer;
+    border: 1px solid var(--white);
+    border-radius: 100px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.button-to-projects:hover{
+    background-color: var(--yellow);
+    border: 1px solid var(--black);
+    color: var(--black);
+}

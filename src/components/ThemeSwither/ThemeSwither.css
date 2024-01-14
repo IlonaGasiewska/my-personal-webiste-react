@@ -1,0 +1,19 @@
+.theme-switcher{
+    width: 80px;
+    height: 45px;
+    background-color: var(--gray);
+    background-size: contain;
+    border-radius: 100px;
+    justify-content: left;
+    padding: 0px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.theme-switcher-button {
+    width: 35px;
+    height: 35px;
+    background-image: url(../../images/moon.png);
+    background-size: 100%;
+}
