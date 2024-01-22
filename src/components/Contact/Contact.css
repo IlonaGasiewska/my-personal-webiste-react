@@ -1,0 +1,75 @@
+.contact {
+    text-align: center;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    color: var(--black);
+    flex-wrap: wrap;
+    min-width: 350px;
+}
+
+.form-right-side {
+    padding: 50px 0px;
+    width: 40%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--yellow);
+    min-width: 350px;
+    justify-content: space-around;
+}
+
+.form-right-side .social-media i{
+    color: var(--black);
+}
+
+.form-right-side h1{
+    padding: 50px;
+    font-size: 120px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 60%;
+    background-color: var(--white);
+    padding: 100px 0px;
+    color: var(--black);
+    min-width: 350px;
+}
+
+input, textarea{
+    width: 80%;
+    padding: 20px 10px;
+    margin: 5px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+
+input[type="button"]{
+   width: 60%;
+   border-radius: 100px;
+   color: var(--white);
+   background-color: var(--black);
+   font-size: 20px;
+   cursor: pointer;
+   border: none;
+   font-weight: 600;
+}
+
+input[type="button"]:hover {
+    color: var(--black);
+    background-color: var(--yellow);
+}
+
+@media  (max-width: 1000px) {
+    form , .form-right-side{
+        width: 100%;
+    }
+    form {
+        order: 2;
+    }
+}

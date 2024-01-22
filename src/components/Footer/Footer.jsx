@@ -1,4 +1,5 @@
 import './Footer.css';
+import SocialMedia from "../SocialMedia/SocialMedia"
 
 function Footer() {
 

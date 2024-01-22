@@ -1,5 +1,5 @@
 import './About-me.css';
-import myPhoto2 from "../../images/Me-cut.png"
+import myPhoto2 from "../../images/my-photo2.png"
 import { skills } from '../../consts/skills';
 
 function AboutMe() {

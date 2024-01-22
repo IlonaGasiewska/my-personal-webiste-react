@@ -9,34 +9,7 @@
 
 .about-me h1 {
     font-size: 60px;
-}
-
-.about-me h1 {
     width: 100%;
-}
-
-.short-description {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    width: 100%;
-}
-
-.short-description div {
-    background-color: var(--gray);
-    padding: 30px;
-    margin: 30px 0px;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-    opacity: 0.7;
-}
-
-.short-description i {
-    font-size: 70px;
-    margin-bottom: 30px;
 }
 
 .about-me img {
