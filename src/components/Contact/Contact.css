@@ -8,29 +8,14 @@
     min-width: 350px;
 }
 
-.form-right-side {
-    padding: 50px 0px;
+h1 {
     width: 40%;
-    gap: 30px;
     display: flex;
     flex-direction: column;
     background-color: var(--yellow);
     min-width: 350px;
     justify-content: space-around;
-}
-
-.form-right-side .social-media i{
-    color: var(--black);
-}
-
-.form-right-side h1{
-    padding: 50px;
     font-size: 120px;
-}
-
-h1 {
-    font-size: 50px;
-    margin-bottom: 30px;
 }
 
 form {
@@ -67,7 +52,7 @@ input[type="button"]:hover {
 }
 
 @media  (max-width: 1000px) {
-    form , .form-right-side{
+    form , h1{
         width: 100%;
     }
     form {
