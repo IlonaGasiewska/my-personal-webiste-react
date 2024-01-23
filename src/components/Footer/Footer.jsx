@@ -6,7 +6,7 @@ function Footer() {
 
   return (
     <footer className="footer" id="footer">
-      <h3>Ilona Gąsiewska <span className="javascript-element">JavScript</span> Developer</h3>
+      <h3>Ilona Gąsiewska <span className="javascript-element">JavaScript</span> Developer</h3>
       <NavbarList/>
       <div>
         <SocialMedia/>

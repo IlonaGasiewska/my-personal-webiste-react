@@ -8,7 +8,7 @@
     min-width: 350px;
 }
 
-h1 {
+.contact h1 {
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@ input[type="button"]:hover {
 }
 
 @media  (max-width: 1000px) {
-    form , h1{
+    form , .contact h1 {
         width: 100%;
     }
     form {

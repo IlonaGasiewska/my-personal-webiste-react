@@ -1,0 +1,15 @@
+.yellow-element {
+    background-color: var(--yellow);
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    border-radius: 0% 0% 100%;
+}
+
+
+@media  (max-width: 1300px) {
+    .yellow-element {
+        display: none;
+    }
+}
