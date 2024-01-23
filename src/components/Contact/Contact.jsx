@@ -13,8 +13,6 @@ function Contact() {
       </form>
       <div className="form-right-side">
       <h1>Let's stay in touch</h1>
-        i.gasiewska.ilona@gmail.com
-        <SocialMedia></SocialMedia>
       </div>
     </div>
   );

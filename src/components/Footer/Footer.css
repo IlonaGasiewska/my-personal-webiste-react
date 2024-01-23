@@ -1,0 +1,38 @@
+footer {
+    height: 200px;
+    bottom: 0;
+    position: sticky;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:70px;
+    text-align: center;
+}
+
+h3 {
+    width: 200px
+}
+
+.footer .navbar-list {
+    width: fit-content;
+    order: 0;
+    width: 30%;
+}
+
+.copyrights , .copyrights a{
+    color: #537188;
+}
+.copyrights{
+    width: 100%;
+    text-align: center;
+}
+
+.footer .social-media {
+    margin-bottom: 20px;
+}
+
+/* .javascript-element {
+    background-color: red;
+} */
