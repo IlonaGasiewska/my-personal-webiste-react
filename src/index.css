@@ -16,6 +16,15 @@
 body {
     background-color: var(--black);
     color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container{
     max-width: 1440px;
     margin: auto;
+    background-color: var(--black);
+    z-index: 1;
 }

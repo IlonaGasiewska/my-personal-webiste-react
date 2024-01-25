@@ -9,6 +9,9 @@ footer {
     flex-wrap: wrap;
     margin-top:70px;
     text-align: center;
+    max-width: 1440px;
+    margin: auto;
+    border-top:1px var(--white) solid ;
 }
 
 h3 {

@@ -1,9 +1,13 @@
 import './Projects.css';
+import Project from '../Project/Project';
 
-function Projects() {
+function Projects(props) {
 
   return (
-    <div className="projects" id="projects">Projects</div>
+    <div className="projects" id="projects">
+      <h1>Projects</h1>
+
+    </div>
   );
 }
 
